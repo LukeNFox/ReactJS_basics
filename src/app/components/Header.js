@@ -1,7 +1,6 @@
 import React from "react";
 
-export class Header extends React.Component{
-    render(){
+export const Header = (props) => {
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                 <div className="container">
@@ -16,5 +15,5 @@ export class Header extends React.Component{
             </nav>
 
         );
-    }
-}
+    };
+{/* stateless component */}
